@@ -1,8 +1,6 @@
 * {
   color: white;
   background-color: black;
-  text-align: center;
-  margin: auto;
 }
 
 header {
@@ -19,7 +17,7 @@ aside {
 }
 
 main {
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 nav {
