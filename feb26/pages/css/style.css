@@ -3,6 +3,10 @@
   background-color: black;
 }
 
+header {
+  display: flex;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -10,11 +14,6 @@ main {
 
 aside {
   width: 25%;
-  background-color: red;
-}
-
-footer {
-  background-color: blue;
 }
 
 section {
@@ -22,7 +21,6 @@ section {
 }
 
 article {
-  background: red;
   width: 75%;
 }
 /*# sourceMappingURL=style.css.map */

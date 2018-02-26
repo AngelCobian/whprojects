@@ -6,6 +6,7 @@
 }
 header{
     // border-bottom: solid white 2px;
+    display: flex;
 }
  main{
 // float: left;     
@@ -17,7 +18,7 @@ aside{
     // float:right;
     width: 25%;
     // display: block;
-    background-color: red;
+    // background-color: red;
 }
 body{
     // width: 800px;
@@ -33,13 +34,13 @@ footer{
     // clear: both;
     // padding-top: 5px;
     // border-top: solid white 2px;
-    background-color: blue;
+    // background-color: blue;
 }
 section{
     // margin-top:5em;
     width: 100%;
 }
 article{
-    background: red;
+    // background: red;
     width: 75%;
 }
