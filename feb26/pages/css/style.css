@@ -35,5 +35,7 @@ nav {
 
 footer {
   clear: both;
+  padding-top: 5px;
+  border-top: solid white 2px;
 }
 /*# sourceMappingURL=style.css.map */
