@@ -11,7 +11,7 @@ header{
     background-image: url("../images/banner.jpg");
     background-size: cover;
     color: rgb(230, 230, 230);
-    text-align: center;
+    // text-align: center;
     font-family: sans-serif;
     height: 50vw;
     display: flex;
@@ -32,7 +32,9 @@ h1 {
     // text-align: center;
     text-transform: uppercase;
     // font-family: cursive;
+    margin-top: auto;
 }
 h2 {
     font-size: 90%;
+    margin-bottom: auto;
 }
