@@ -3,25 +3,14 @@
   background-color: black;
 }
 
-header {
-  border-bottom: solid white 2px;
-}
-
 main {
   display: flex;
+  flex-wrap: wrap;
 }
 
 aside {
-  width: 100px;
+  width: 25%;
   background-color: red;
-}
-
-main {
-  flex-direction: column-reverse;
-}
-
-nav {
-  border-bottom: solid white 2px;
 }
 
 footer {
@@ -29,11 +18,11 @@ footer {
 }
 
 section {
-  width: 100px;
+  width: 100%;
 }
 
 article {
   background: red;
-  width: 100px;
+  width: 75%;
 }
 /*# sourceMappingURL=style.css.map */
