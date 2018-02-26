@@ -10,7 +10,7 @@ header {
 }
 
 main {
-  border-right: white solid 2px;
+  display: flex;
 }
 
 aside {
