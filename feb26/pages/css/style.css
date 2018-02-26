@@ -33,9 +33,9 @@ nav {
 }
 
 footer {
-  clear: both;
   padding-top: 5px;
   border-top: solid white 2px;
+  background-color: blue;
 }
 
 section {
