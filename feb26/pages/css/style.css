@@ -32,4 +32,8 @@ main {
 nav {
   border-bottom: solid white 2px;
 }
+
+footer {
+  clear: both;
+}
 /*# sourceMappingURL=style.css.map */
