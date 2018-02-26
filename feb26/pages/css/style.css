@@ -17,6 +17,7 @@ main {
 aside {
   float: right;
   width: 398px;
+  display: block;
 }
 
 body {
