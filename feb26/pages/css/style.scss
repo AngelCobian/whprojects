@@ -11,6 +11,7 @@ header{
 // float: left;     
 //  border-right: white solid 2px;
 display: flex;
+flex-wrap: wrap;
  }   
 aside{
     // float:right;
@@ -37,7 +38,7 @@ footer{
 }
 section{
     // margin-top:5em;
-    width: 100px;
+    width: 100%;
 }
 article{
     background: red;
