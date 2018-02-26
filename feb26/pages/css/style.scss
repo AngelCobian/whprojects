@@ -14,16 +14,16 @@ display: flex;
  }   
 aside{
     // float:right;
-    width: 198px;
+    width: 100px;
     display: block;
 }
 body{
-    width: 800px;
+    // width: 800px;
     margin: auto;
     
 }
 main{
-    width: 580px;
+    width: 100px;
 
 }
 nav{
@@ -37,4 +37,5 @@ footer{
 }
 section{
     margin-top:5em;
+    width: 100px;
 }
