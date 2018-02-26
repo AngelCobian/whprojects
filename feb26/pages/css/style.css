@@ -18,10 +18,6 @@ aside {
   background-color: red;
 }
 
-body {
-  margin: auto;
-}
-
 main {
   flex-direction: row-reverse;
 }
