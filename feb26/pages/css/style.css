@@ -23,7 +23,7 @@ body {
 }
 
 main {
-  background-color: green;
+  flex-direction: row-reverse;
 }
 
 nav {

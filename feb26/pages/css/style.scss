@@ -25,8 +25,8 @@ body{
 }
 main{
     // width: 100px;
-    background-color: green;
-
+    
+    flex-direction: row-reverse;
 }
 nav{
     border-bottom: solid white 2px;
