@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+header {
+  background-image: url("../images/bg.jpg");
+}
+
 nav {
   background-color: #1b1a1a;
 }
