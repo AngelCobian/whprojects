@@ -38,4 +38,8 @@ footer {
 section {
   width: 100px;
 }
+
+article {
+  background: red;
+}
 /*# sourceMappingURL=style.css.map */
