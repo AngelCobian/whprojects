@@ -15,7 +15,6 @@ main {
 
 aside {
   width: 100px;
-  display: block;
   background-color: red;
 }
 
@@ -33,13 +32,10 @@ nav {
 }
 
 footer {
-  padding-top: 5px;
-  border-top: solid white 2px;
   background-color: blue;
 }
 
 section {
-  margin-top: 5em;
   width: 100px;
 }
 /*# sourceMappingURL=style.css.map */
