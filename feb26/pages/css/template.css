@@ -34,9 +34,11 @@ ul {
 
 h1 {
   text-transform: uppercase;
+  margin-top: auto;
 }
 
 h2 {
   font-size: 90%;
+  margin-bottom: auto;
 }
 /*# sourceMappingURL=template.css.map */
