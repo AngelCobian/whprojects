@@ -1,0 +1,100 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(0, 0%, 96%);
+$black: hsl(0, 0%, 8%);
+
+header{
+    padding: 10vw 2vw;
+    background-color: $keycolor;
+    text-align: center;
+    color: $white;
+    
+}
+// a {
+//     color: inherit;
+// }
+
+
+// a:visited{
+//     color: black;
+// }
+// a:link{
+//     color: inherit;
+// }
+// a:hover{
+//     color: green;
+// }
+// a:active{
+//     color: purple;
+// }
+a{
+    color: inherit;
+}
+
+header div{
+    width: 40%;
+    padding: 5vw;
+    
+    margin: 0 auto;
+    border-width: 3px 1px;
+    border-style: double dashed dotted;
+    border-color: $white;
+}
+h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+h2{
+    font-weight: 200;
+    margin: 45px auto;
+}
+div strong {
+    font-weight: bold;
+}
+a.button {
+    background-color: transparentize($black, .75);
+    color:$white;
+    padding: 16px 20px;
+    transition: background-color 200ms;
+    // display: block;
+    
+}
+a.button:hover {
+    background-color: transparentize($black, .90);
+    transition: background-color 200ms;
+    transform: rotate(360deg);
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#features h2 {
+    border-bottom: 3px double $black;
+    display: inline-block;
+
+}
+#features ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li{
+        width: 25%;
+        padding: 40px;
+        border:1px solid $black;
+        margin-top: -1px;
+        margin-bottom: -1px;
+        text-align: center;
+    }
+    
+}
+
+i{
+    font-size: 300%;
+    color: $keycolor;
+}

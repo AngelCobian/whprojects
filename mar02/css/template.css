@@ -1,0 +1,83 @@
+header {
+  padding: 10vw 2vw;
+  background-color: darkturquoise;
+  text-align: center;
+  color: whitesmoke;
+}
+
+a {
+  color: inherit;
+}
+
+header div {
+  width: 40%;
+  padding: 5vw;
+  margin: 0 auto;
+  border-width: 3px 1px;
+  border-style: double dashed dotted;
+  border-color: whitesmoke;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 200;
+  margin: 45px auto;
+}
+
+div strong {
+  font-weight: bold;
+}
+
+a.button {
+  background-color: rgba(20, 20, 20, 0.25);
+  color: whitesmoke;
+  padding: 16px 20px;
+  transition: background-color 200ms;
+}
+
+a.button:hover {
+  background-color: rgba(20, 20, 20, 0.1);
+  transition: background-color 200ms;
+  transform: rotate(360deg);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+#features h2 {
+  border-bottom: 3px double #141414;
+  display: inline-block;
+}
+
+#features ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#features ul li {
+  width: 25%;
+  padding: 40px;
+  border: 1px solid #141414;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  text-align: center;
+}
+
+i {
+  font-size: 300%;
+  color: darkturquoise;
+}
+/*# sourceMappingURL=template.css.map */

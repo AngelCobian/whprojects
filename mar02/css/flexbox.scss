@@ -1,0 +1,28 @@
+*{
+    background-color: gold;
+}
+section {
+    display: flex;
+    background-color: green;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    // flex-direction: row-reverse;
+    height: 600px;
+    align-items: flex-end;
+    // align-content: flex-end;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+div:nth-child(4){
+    align-self: flex-start;
+    background-color: indigo;
+}
+
+// div:nth-child(even){
+//     background-color: gray;
+// }

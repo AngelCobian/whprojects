@@ -1,0 +1,25 @@
+* {
+  background-color: gold;
+}
+
+section {
+  display: flex;
+  background-color: green;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 600px;
+  align-items: flex-end;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 5px;
+}
+
+div:nth-child(4) {
+  align-self: flex-start;
+  background-color: indigo;
+}
+/*# sourceMappingURL=flexbox.css.map */

@@ -1,0 +1,21 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+p {
+  color: red;
+}
+
+div {
+  color: lime;
+}
+
+.a {
+  color: gold;
+}
+
+#a {
+  color: lightblue;
+}
+/*# sourceMappingURL=style.css.map */
