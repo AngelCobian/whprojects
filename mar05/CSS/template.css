@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  color: whitesmoke;
+}
+
+h1 {
+  margin: 0;
+}
+
+.ignite {
+  background-color: #2d92a9;
+}
+
+.classic {
+  background-color: #a9442d;
+  background-image: url("../img/c.svg");
+  background-size: 100px;
+  background-repeat: repeat-y;
+}
+
+.skew {
+  width: 50vw;
+  transform: skew(-45deg);
+  transform-origin: left bottom;
+}
+
+header {
+  display: flex;
+  overflow: hidden;
+  background-color: #292c2e;
+  position: relative;
+  height: 200px;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  flex: none;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.marquee {
+  margin-left: -75px;
+  display: flex;
+  align-items: center;
+}
+
+.marquee h1 {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+@media print {
+  header {
+    height: 500px;
+    font-size: 300%;
+  }
+  .skew {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .ignite {
+    background-color: red;
+  }
+  .classic {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 75%;
+  }
+}
+/*# sourceMappingURL=template.css.map */
