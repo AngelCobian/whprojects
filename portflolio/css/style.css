@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral+SC:200,300,400,500,600,700,800");
+@import url("https://use.fontawesome.com/releases/v5.0.8/css/all.css");
+@media screen and (max-width: 1000px) {
+  .h {
+    background-image: url("https://picsum.photos/500/250?image=1041");
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+}
+
+nav {
+  font-family: 'Spectral SC', sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav#dropdown {
+  background-color: #443f3f;
+  padding: 10px;
+  color: white;
+}
+
+nav#dropdown ulli {
+  position: relative;
+  display: inline-block;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #acabab;
+  height: 250px;
+  font-family: "Comic Sans MS";
+  font-size: 12px;
+}
+
+nav#dropdown ul li:nth-child(1):hover ul {
+  display: block;
+}
+
+nav#dropdown ul ul {
+  display: none;
+  position: absolute;
+  background-color: #8c8c8c;
+  padding: 10px;
+  width: 200px;
+}
+
+nav#dropdown ul ul li:not(:last-child) {
+  border-bottom: 1px solid #737373;
+}
+
+nav#dropdown ul ul li {
+  white-space: nowrap;
+  display: block;
+  border: none;
+}
+
+nav#dropdown ul ul a {
+  display: block;
+  padding-right: 20px;
+  transition: all 590ms;
+  box-sizing: border-box;
+  width: calc(100% -3px);
+}
+
+nav#dropdown ul ul a:hover {
+  color: white;
+  border-left: 3px solid #bf406a;
+  text-indent: 3px;
+}
+
+nav#dropdown ul a {
+  display: inline-block;
+  padding: 5px;
+  color: inherit;
+  text-decoration: none;
+}
+
+nav#dropdown ul a:hover {
+  background-color: #bfbfbf;
+}
+
+header {
+  background-image: url("https://picsum.photos/1000/250?image=1045");
+  margin: auto auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 150%;
+}
+
+header p {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  color: wheat;
+  font-family: 'Spectral SC', sans-serif;
+}
+
+.htext {
+  font-size: 19px;
+}
+
+div#a {
+  width: 66vw;
+  font-size: 20px;
+  color: white;
+}
+
+div#a img {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+div#c {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 25vw;
+}
+
+div#b {
+  width: 10vw;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+div#b #github {
+  margin: 15px;
+  width: 100px;
+}
+
+p {
+  margin: 12px 10px;
+}
+
+footer {
+  height: 10vh;
+  background-color: white;
+  text-align: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+span.pic {
+  display: flex;
+}
+
+span.texts {
+  margin-left: 12px;
+}
+/*# sourceMappingURL=style.css.map */
