@@ -1,0 +1,32 @@
+$black: hsla(0, 0%, 19%, 1);
+body{
+    margin: 0;  
+    transition: background-color 500ms;
+    // background-color: 
+}
+button{
+    border: 1px solid darken($black, 10);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: inherit;
+    &:hover{
+        background-color: lighten($black, 65);
+        // cursor: pointer;
+        cursor: url
+    }
+}
+nav{
+    padding: 10px;
+    background-color: $black;
+    display: flex;
+    justify-content: flex-end;
+}
+body.colorize{
+    background-color: yellow;
+  
+}
+h1{
+    // background-size: cover;
+    background-size: 100%;
+    padding: 50px;
+}

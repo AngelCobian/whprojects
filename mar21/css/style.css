@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  transition: background-color 500ms;
+}
+
+button {
+  border: 1px solid #171717;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #d6d6d6;
+  cursor: url;
+}
+
+nav {
+  padding: 10px;
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body.colorize {
+  background-color: yellow;
+}
+
+h1 {
+  background-size: 100%;
+  padding: 50px;
+}
+/*# sourceMappingURL=style.css.map */
