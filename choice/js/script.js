@@ -13,7 +13,7 @@ start.addEventListener('click', lightout);
 function lightout(){
 short.backgroundColor = "black";
 short.color= "white";
-text.innerHTML="The lights go out! Yes, inclulds the TV. You look out the window and notice that everyone has power. So you belive that you blown the fuse. but your fusebox is outside on the roof top. You have to go thought a few colored doors and stairs to get their.";
+text.innerHTML="Suddenly, the lights go out! Yes, inclulds the TV. You look out the window and notice that everyone has power. So you belive that you blown the fuse. but your fusebox is outside on the roof top. You have to go thought a few colored doors and stairs to get their.";
 
 
 hiddenbtn();
