@@ -1,4 +1,20 @@
 .btn1 {
   display: none;
 }
+
+body {
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  border-radius: 7px;
+  cursor: pointer;
+  margin: auto 10px;
+}
+
+button:active {
+  color: white;
+  background-color: lightblue;
+}
 /*# sourceMappingURL=style.css.map */

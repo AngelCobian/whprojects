@@ -1,3 +1,18 @@
 .btn1{
     display: none;
 }
+body{
+    text-align: center;
+    justify-content: center;
+}
+button{
+    border-radius: 7px;
+    cursor: pointer;
+    margin: auto 10px;
+    // padding: 4px 0;
+    &:active{
+        color: white;
+        background-color: lightblue
+
+    }
+}
