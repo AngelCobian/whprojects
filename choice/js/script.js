@@ -6,7 +6,7 @@ console.log(randomevents);
 var text = document.querySelector('p')
 var numberofRooms = 10;
 var start = document.getElementById("start");
-var forRandomcolors = (red, blue, green, yellow, white)
+// var forRandomcolors = (red, blue, green, yellow, white);
 
 start.addEventListener('click', lightout);
 
@@ -27,10 +27,10 @@ function hiddenbtn() {
 function showbtn(){
     // document.querySelector('button');
     button[1].className = " ";
-    button[1].id= "ch1" ;   
+    // button[1].id= "ch1" ;   
     button[1].textContent = "hello world" 
     button[2].className = " ";
-    button[2].id= "ch2";
+    // button[2].id= "ch2";
     button[2].textContent = "hello world2" 
     
 }
