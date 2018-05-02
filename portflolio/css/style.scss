@@ -3,6 +3,7 @@
 @media screen and (max-width:1000px){
   .h{
     background-image: url('https://picsum.photos/500/250?image=1041');
+    
    } 
 // $font: 
   
@@ -153,15 +154,38 @@ nav#dropdown {
     flex-direction: column;
     justify-content: space-evenly;
     width: 25vw;
+    background-color: black;
+    text-align: center;
     // margin: 10px;
     // div{
     //   // width: 200px;
       // font-size: 10px;
     // }
+    div#project1{
+      border-top: 1px solid black;
+      border-bottom: 1px solid black; background: lightgreen;
+      // padding: 20px; 
+      height: 33%;
+
+    }
+    div#project2{
+      border-bottom: 1px solid black; background-color:lightcoral;
+      // padding: 20px; 
+      height: 33%;
+
+    }
+    div#porject3{
+      // border-bottom: 1px solid black; 
+      // padding: 20px;
+      // display: none;
+      background-color: lightblue;
+      height: 33%;
+      overflow: hidden;
+    }
   }
   div#b{
     // background-color: blue;
-    width: 10vw;
+    width: 12vw;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -200,4 +224,146 @@ nav#dropdown {
 span.texts{
 margin-left: 12px;
 // padding-top: 12px;
+}
+div#a1{
+  float: left;
+  padding-right: 50px;
+}
+div#b2{
+  // text-indent: 0;
+  margin-left: 100px;
+}
+
+
+
+@media only screen and (max-width: 860px){
+  body{
+   width: auto;
+   height: auto;
+  //  overflow: hidden;
+  }
+  #back{
+    display: flex;
+    flex-direction: column;
+  //  visibility: hidden;
+  //  display: none;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    font-size: 12px;
+  }
+  div#a{
+    width: auto;
+    // border-bottom: 1px solid black;
+    border-right: 0;
+    font-size: 12px;
+    margin: auto;
+    // display: flex;
+    // flex-direction: column;
+    img{
+      width: 120px;
+      height: 120px;
+      border: 2px solid black;
+      display: block;
+      margin: auto;
+      padding-bottom: 7px;
+      // padding-right: 100px;
+    }
+    span.texts{
+    //  font-size: 100px; 
+    padding: 0 10px;
+    text-align: center;
+    width: auto;
+    }
+  }
+  div#b{
+    width: 100%;
+
+  }
+  div#c{
+    width: 100%;
+    border-bottom: 1px solid black;
+    // padding: 10px 0;
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+    div#project1{
+      border-top: 1px solid black;
+      border-bottom: 1px solid black; background: lightgreen;
+      padding: 10px; 
+      width: auto;
+      height: auto;
+
+    }
+    div#project2{
+      border-bottom: 1px solid black; background-color:lightcoral;
+      padding: 10px; 
+      height: auto;
+
+    }
+    div#porject3{
+      // border-bottom: 1px solid black; 
+      padding: 10px;
+      // display: none;
+      background-color: lightblue;
+      height: auto;
+    }
+    
+  }
+  div#b{
+    width: auto;
+    display: block;
+    // display: none;
+    text-align: right;
+    a{
+
+    }
+  }
+  div#github{
+    // display: none;
+    // justify-content: right;
+    // text-align: right;
+    width: auto;
+    font-size: 15px;
+    float: right;
+    a{
+      // text-align: right;
+      // display: block;
+      // float: right;
+      // margin: auto;
+    }
+    
+    i{
+      
+    }
+  }
+  #dropdown{
+    visibility: hidden;
+    // display: none;
+  }
+  #a1{
+    // border: 1px solid black;
+    width: auto;
+    padding: 0;
+    // padding-bottom: 100px;
+  }
+  #b2{
+// margin: 0;
+// padding: 0;
+// width: 20px;
+  }
+  footer{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 250px){
+  body{
+
+    display: none;
+  }
 }

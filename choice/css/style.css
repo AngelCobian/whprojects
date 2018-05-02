@@ -15,6 +15,10 @@ button {
 
 button:active {
   color: white;
+  background-color: navy;
+}
+
+button:hover {
   background-color: lightblue;
 }
 /*# sourceMappingURL=style.css.map */

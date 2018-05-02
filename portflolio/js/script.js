@@ -12,3 +12,5 @@ function toggle(button)
   else if(document.getElementById("fl").value=="ON"){
    document.getElementById("fl").value="OFF";}
 }
+
+
